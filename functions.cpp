@@ -68,7 +68,7 @@ int getCurrentYPosition(hero h1)
     return *ptr;
 }
 
-int assignDirection(std::string input)
+int assignDirection(std::string input) //determines enum direction based on user input
 {
     int num = 6;
     if(input == "north")
@@ -101,7 +101,7 @@ int assignDirection(std::string input)
     return num;
 }
 
-bool isValid(int dir)
+bool isValid(int dir) //checks if the movement is valid
 {
     bool isVal = true;
     std::string input = "";
@@ -295,7 +295,7 @@ void checkSpace()
     }
 }
 
-void battle(int monsterHitPoints)
+void battle(int monsterHitPoints) //battle monsters
 {
 	while (h1.state == alive && monsterHitPoints > 0)
 	{
@@ -346,7 +346,7 @@ void printSword()
 //         \>
 }
 
-void clearScreen()
+void clearScreen() //resets the command line
 {
     system("clear");
 }

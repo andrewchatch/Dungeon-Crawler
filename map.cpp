@@ -19,9 +19,9 @@ extern hero h1;
 void createMap()
 {
 
-    map[0][0] = Entrance;
+    map[0][0] = Entrance; //starting point
 
-    map[20][20] = Exit;
+    map[20][20] = Exit; //end point
 
     srand(time(NULL));
 

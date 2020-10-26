@@ -1,6 +1,14 @@
 //Dungeon Crawl main
 //Andrew Hatch
 //10-12-2020
+//Code Quality: The user interface is easy to follow
+//Comments explain how the code works
+//Multiple files:I used a functions file and a map file
+//Overall functionality: I build in protections to keep the user from breaking the game
+//Enums for directions and items
+//Extern for hero and int map array
+//Struct for the hero
+//Random number generator to determine where the items are placed
 
 #include <iostream>
 #include <iomanip>
