@@ -25,7 +25,7 @@ void createMap()
 
     srand(time(NULL));
 
-    for(int i = 0; i < 200; i++)
+    for(int i = 0; i < 110; i++)
     {
         int x = rand()%19;
         int y = rand()%19;
